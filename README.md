@@ -52,15 +52,15 @@ The model achieves ~85-86% accuracy on the test set.
 
 Key metrics (precision, recall) highlight performance on the minority class (churned customers).
 
-Example prediction on a sample customer demonstrates practical usage.
+A sample customer prediction effectively demonstrates the practical application of the model.
 
-After checking the results the F1-score is low so, i checked the classed in the target variable so the class is imbalances.
+After evaluating the results, the F1-score was found to be low. Upon further analysis of the target variable, an imbalance in class distribution was identified.
 
-By using the SMOOTH technique the feature is balanced.
+By applying the SMOTE technique, the class distribution was balanced.
 
-Now the whole process is repeted again with the same ANN structed.
+The entire process was then repeated using the same ANN structure.
 
-now F1-score is also balanced.
+As a result, the F1-score improved, indicating a more balanced model performance.
 
 # Benefits of SMOTE:
 Improved recall for the minority class (churned customers).
@@ -77,5 +77,10 @@ The integration of SMOTE (Synthetic Minority Oversampling Technique) addressed t
 By deploying such a model, banks can proactively engage customers with personalized retention efforts—such as targeted offers, improved customer service, or loyalty programs—directly reducing attrition costs and enhancing customer lifetime value. While SMOTE significantly enhanced model performance, future work could explore hybrid techniques (e.g., SMOTE with undersampling) or advanced architectures like graph neural networks to further refine predictions.
 
 Ultimately, this project underscores the power of combining deep learning with strategic data preprocessing to solve real-world business challenges. By prioritizing both technical rigor and practical applicability, organizations can transform raw data into actionable insights, fostering long-term customer relationships and driving sustainable success.
+
+Author
+
+Bekkam Shiva
+Data Science Enthusiast | Machine Learning | NLP
 
 
